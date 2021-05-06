@@ -83,9 +83,7 @@
       var count = 0;
       var currentRow = this.get(rowIndex);
       for (var i = 0; i < currentRow.length; i++) {
-        if (currentRow[i]) {
-          count++;
-        }
+        count += currentRow[i];
       }
       return count > 1;
 
